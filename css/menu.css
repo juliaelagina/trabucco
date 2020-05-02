@@ -1,0 +1,89 @@
+li:nth-child(2){
+    background-color: rgba(0, 0, 0, 0.6);
+}
+li:nth-child(3){
+    background-color: rgba(123, 64, 102, 0.808);
+}
+.wrap {
+    display: flex;
+}
+.rightPart {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.workArea{
+    width: 100%;
+    max-width: 1000px;
+}
+h3{
+    font-size: 29px;
+}
+h4 {
+    font-size: 28px;
+}
+.menuWrapForPosition{
+    margin-right: 15px;
+}
+.menu__description{
+    margin-left: 26px;
+    margin-top: 7px;
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 15px;
+    line-height: 98.6%;
+}
+.primi {
+    padding-left: 45px;
+}
+.secondi {
+    padding-left: 20px;
+}
+.bevande {
+    padding-left: 10px;
+}
+.dessert{
+    padding-left: 19px;
+}
+@media (min-width: 750px) {
+
+    .rightPart  {
+        width: 70%;
+        display: block;
+        padding: 40px 100px;
+        margin: 55px  auto ;
+    }
+}
+.forImgMenu img{
+    width: 185px;
+}
+h3{
+    margin-top: 8px;
+    font-family: 'Open Sans Condensed ';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 98.6%;
+}
+.forName {
+    margin-bottom: 35px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.forName img{
+    margin-left: 43px;
+}
+h4 {
+    margin-top: 12px;
+    padding-left: 15px;
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 98.6%;
+}

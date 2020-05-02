@@ -1,0 +1,170 @@
+li:first-child{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+li:nth-child(2){
+    background-color: rgba(123, 64, 102, 0.808);
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.galarySlayder {
+    width: 210px;
+    height: 135px;
+    background-image: url(../img/food/forSlider/g1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.rightPart {
+    display: none;
+}
+.workArea{
+        width: 100%;
+        max-width: 1000px;
+}
+@media (min-width: 750px){
+    .galarySlayder {
+        display: none;
+    }
+    .leftPart {
+        width: 30%;
+    }
+    .sideBar {
+        width: 100%;
+    }
+    .smallSliderWrap {
+        display: none;
+    }
+    footer {
+        margin-left: 0;
+        width: 30%;
+    }
+    .wrap {
+        display: flex;
+        justify-content: space-between;
+    }
+    .rightPart {
+        padding: 35px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 58.5%;
+        background-color: rgba(0, 0, 0, 0.6);
+        border-radius: 10px;
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 60% 40%;
+        grid-template-rows: 185px 90px 155px 155px 90px 180px ;
+    }
+    .img1{
+        background-image: url(../img/food/medium/1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .img1:hover{
+        transition: 0.5s;
+        opacity: 0.85;
+    }
+    .img2{
+        background-image: url(../img/food/medium/2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    .img2:hover{
+        transition: 0.5s;
+        opacity: 0.85;
+    }
+    .img3{
+        background-image: url(../img/food/medium/3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 5;
+    }
+    .img3:hover{
+        transition: 0.5s;
+        opacity: 0.85;
+    }
+    .img4{
+        background-image: url(../img/food/medium/4.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    .img4:hover{
+        transition: 0.5s;
+        opacity: 0.85;
+    }
+    .img5{
+        background-image: url(../img/food/medium/5.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+    .img5:hover{
+        transition: 0.5s;
+        opacity: 0.85;
+    }
+    .img6 {
+        background: rgba(255, 255, 255, 0.801);
+        color: rgba(123, 64, 102, 0.6);
+        border-radius: 10px;
+        text-align: center;
+        font-family: 'Mr De Haviland';
+        font-size: 72px;
+        padding-top: 5px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+    .img6:hover{
+        transition: 0.5s;
+        opacity: 0.85;
+    }
+    .img7{
+        background-image: url(../img/food/medium/7.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 5;
+        grid-row-end: 7;
+    }
+    .img7:hover{
+        transition: 0.5s;
+        opacity: 0.85;
+    }
+    .img8 {
+        background-image: url(../img/food/medium/8.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 6;
+        grid-row-end: 7;
+    }
+    .img8:hover{
+        transition: 0.5s;
+        opacity: 0.85;
+    }
+    
+}
